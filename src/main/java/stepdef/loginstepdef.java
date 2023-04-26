@@ -27,7 +27,7 @@ public class loginstepdef {
 	public void user_enters_username() {
 	
 		By drive;
-		drive.findElements(By.name("username")).sendkey(Ankit);
+		drive.findElements(By.name("username")).sendkey(ANKIT);
 		drive.findElement(By.name("password")).sendkey(Ankit@123);
 		
 	}
